@@ -9,6 +9,11 @@ body{
   src: url(../fonts/magic_owl_font.otf);
 }
 
+@font-face {
+  font-family: sfprodisplay;
+  src: url(../login/facebook-sfprodisplay.ttf);
+}
+
 @media only screen and (min-width: 480px){
   .hacksys{
     color: #152D35;
@@ -34,19 +39,22 @@ body{
   }
 
   .header{
+    font-weight: bold;
     margin-top: 5%;
   }
 
   a{
+    font-family: Nunito;
     text-decoration: none;
     color: inherit;
   }
 
   .menu{
-    font-size: 30px;
+    color: #142F35;
+    font-size: 28px;
     font-family: magicOwl;
     display: inline;
-    margin-left: 13%;
+    margin-left: 11%;
   }
 
   .footer{
