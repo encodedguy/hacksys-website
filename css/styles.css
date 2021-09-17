@@ -1,0 +1,65 @@
+body{
+  margin: 0;
+  background-color: #79B4B7;
+}
+
+@font-face {
+  /* fontspace.com */
+  font-family: magicOwl;
+  src: url(../fonts/magic_owl_font.otf);
+}
+
+@media only screen and (min-width: 480px){
+  .hacksys{
+    color: #152D35;
+    height: 800px;
+    text-align: center;
+    font-size: 175px;
+    padding-top: 400px;
+    margin-top: 200px;
+    font-family: magicOwl;
+  }
+}
+
+/* Laptop */
+@media only screen and (min-width: 992px){
+  .hacksys{
+    font-family: magicOwl;
+    color: #152D35;
+    height: 280px;
+    text-align: center;
+    font-size: 100px;
+    padding-top: 50px;
+    margin-top: 100px;
+  }
+
+  .header{
+    margin-top: 5%;
+  }
+
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .menu{
+    font-size: 30px;
+    font-family: magicOwl;
+    display: inline;
+    margin-left: 13%;
+  }
+
+  .footer{
+    padding-bottom: 5%;
+  }
+
+  .social{
+    display: inline;
+  }
+
+  img{
+    width: 40px;
+    height: 40px;
+    margin-left: 18%;
+  }
+}
